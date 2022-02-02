@@ -14,11 +14,11 @@ func UpToLength(length int) []string {
 
 func digitToFizzBuzz(input int) string {
 	if input%3 == 0 && input%5 == 0 {
-		return "FIZZBUZZ"
+		return "fizzBuzz"
 	} else if input%3 == 0 {
-		return "FIZZ"
+		return "fizz"
 	} else if input%5 == 0 {
-		return "BUZZ"
+		return "buzz"
 	} else {
 		return strconv.Itoa(input)
 	}
